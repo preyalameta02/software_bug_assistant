@@ -6,8 +6,6 @@ The Software Bug Assistant is an agent designed to help IT Support and Software 
 
 ![](deployment/images/google-cloud-architecture.png)
 
-This README contains instructions for local and Google Cloud deployment. 
-
 ## Agent Details
 
 The key features of the Software Bug Assistant Agent include:
