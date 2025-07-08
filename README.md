@@ -1,8 +1,8 @@
-# Software Bug Assistant - ADK Python Sample Agent
+# Software Bug Assistant - ADK Python Agent
 
 ## Overview
 
-The Software Bug Assistant is a sample agent designed to help IT Support and Software Developers triage, manage, and resolve software issues. This sample agent uses ADK Python, a PostgreSQL bug ticket database (internal tickets), GitHub MCP server (external tickets), RAG, Google Search, and StackOverflow to assist in debugging. 
+The Software Bug Assistant is an agent designed to help IT Support and Software Developers triage, manage, and resolve software issues. This agent uses ADK Python, a PostgreSQL bug ticket database (internal tickets), GitHub MCP server (external tickets), RAG, Google Search, and StackOverflow to assist in debugging. 
 
 ![](deployment/images/google-cloud-architecture.png)
 
@@ -49,8 +49,8 @@ up-to-date knowledge.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/google/adk-samples.git
-cd adk-samples/python/agents/software-bug-assistant
+git clone https://github.com/preyalameta02/software_bug_assistant.git
+cd software_bug_assistant
 ```
 
 2. Configure environment variables (via `.env` file):
@@ -76,7 +76,7 @@ There are two different ways to authenticate with Gemini models:
 - Calling Gemini models through Vertex AI APIs on Google Cloud.
 
 > [!TIP] 
-> If you just want to run the sample locally, an API key from Google AI Studio is the quickest way to get started.
+> If you just want to run this locally, an API key from Google AI Studio is the quickest way to get started.
 > 
 > If you plan on deploying to Cloud Run, you may want to use Vertex AI.
 
